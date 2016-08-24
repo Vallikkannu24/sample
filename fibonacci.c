@@ -11,7 +11,7 @@ printf("%d\n",b);
 for(i=2;i<n;i++)
 {
 c=a+b;
-printf("%d",c);
+printf("%d\n",c);
 a=b;
 b=c;
 }
