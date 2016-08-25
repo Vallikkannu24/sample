@@ -2,7 +2,7 @@
 #include<conio.h>
 void main()
 {
-int n;
+int n,count1=0;
 int m;
 sanf("%d",&n);
 scanf("%d",&m);
@@ -17,7 +17,8 @@ count++;
 }
 if(count==0)
 {
-printf("%d",i);
+count1++;
 }
 }
+printf("%d",count1);
 }
