@@ -3,7 +3,8 @@
 #include<math.h>
 void main()
 {
-int n;
-scanf(%d",&n);
-printf("%d",pow(n,n));
+int n,value;
+scanf("%d",&n);
+value=pow(n,n)
+printf("%d",value);
 }
