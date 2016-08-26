@@ -2,9 +2,9 @@
 #include<conio.h>
 void main()
 {
-int n;
+int n,count=0;
 int m;
-sanf("%d",&n);
+scanf("%d",&n);
 scanf("%d",&m);
 for(int i=n;i<m;i++)
 {
@@ -19,5 +19,6 @@ if(count==0)
 {
 printf("%d",i);
 }
+count=0;
 }
 }
