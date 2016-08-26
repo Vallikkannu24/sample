@@ -3,13 +3,13 @@
 void main()
 {
 int a[5],temp;
-for(int i=0;i<5;i++)
+for(int x=0;x<5;x++)
 {
-scanf(%d",&a[i]);
+scanf(%d",&a[x]);
 }
 for(int i=0;i<5;i++)
 {
-for(int y=i+1;y<5;y++)
+for(int j=i+1;j<5;j++)
 {
 if(a[i]>a[j])
 {
@@ -21,9 +21,9 @@ a[i]=temp;
 }
 for(int k=0;k<5;k++)
 {
-if(a[i]==i)
+if(a[k]==k)
 {
-printf("%d",a[i])
+printf("%d",a[k]);
 }
 }
 }
