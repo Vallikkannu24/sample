@@ -5,6 +5,7 @@ void main()
 int num;
 scanf("%d",&num);
 int limit;
+scanf("%d",&limit);
 for(int i=0;i<limit;i++)
 {
 printf("%d",num*i);
