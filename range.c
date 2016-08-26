@@ -3,7 +3,7 @@
 void main()
 {
 int sum=0,sum1=0;
-for(int i=0;i<15;i++)
+for(int i=1;i<=15;i++)
 {
 sum=sum+i;
 }
