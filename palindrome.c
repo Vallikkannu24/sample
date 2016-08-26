@@ -5,10 +5,10 @@ void main()
 int num,temp,temp1,rev=0;
 scanf("%d",&num);
 temp=num;
-if(temp>0)
+while(temp>0)
 {
-temp=temp%10;
-rev=rev*10+temp;
+temp1=temp%10;
+rev=rev*10+temp1;
 temp=temp/10;
 }
 if(rev==num)
