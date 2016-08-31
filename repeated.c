@@ -4,25 +4,26 @@ void main()
 
 {
 int a[10];
-int temp,n;
+int temp=0,n;
 scanf("%d",&n);
 for(int i=0;i<n;i++)
 {
 scanf("%d",&a[i]);
 }
-for( int j=0;j<n;j++)
+for( int j=0;j<1;j++)
 {
 for(int k=0;k<n;k++)
 {
-if(a[i]>a[j])
+if(a[i]=a[j])
 {
-temp=a[j];
-a[j]=a[i];
-a[i]=temp;
+temp++;
 }
 
 }}
-printf("%d",a[1]);
+if(temp==0)
+printf(",the element is not repeated");
+else
+printf("the element of first is repeated");
 }
 
 
