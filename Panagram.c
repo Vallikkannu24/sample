@@ -4,6 +4,7 @@ void main()
 {
 		
 char c[30];
+char aa;
 int count,count1=0;
 int n;
 scanf("%d",&n);
@@ -19,7 +20,7 @@ scanf("%d",&c[i];
 		{
 			
 			count=0;
-			c='a';
+			aa='a';
 			for(int j=0;j<n;j++)
 			{
 				if(c==c[j])
@@ -35,7 +36,7 @@ scanf("%d",&c[i];
 				printf("String is not a pangram");
 				break;
 			}
-			c++;
+			aa++;
 		}
 		if(count1>=26)
 		{
