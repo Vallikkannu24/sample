@@ -4,7 +4,7 @@ void main()
 {
 		
 char c[30];
-char aa;
+char aa='a';
 int count,count1=0;
 int n;
 scanf("%d",&n);
@@ -13,14 +13,19 @@ for( int i=0;i<n;i++)
 scanf("%c",&c[i];
 }
 
-	
+	if(n<26)
+{
+printf("string is not a panagram");
+getch();
+exit(1);
+}
 
 		
-		for(int i=0;i<26;i++)
+		for(int i=0;i<25;i++)
 		{
 			
 			count=0;
-			aa='a';
+			
 			for(int j=0;j<n;j++)
 			{
 				if(c==c[j])
@@ -38,7 +43,7 @@ scanf("%c",&c[i];
 			}
 			aa++;
 		}
-		if(count1>=26)
+		if(count1>=25)
 		{
 			printf("String is a Pangram");
 		
