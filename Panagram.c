@@ -21,7 +21,7 @@ exit(1);
 }
 
 		
-		for(int i=0;i<25;i++)
+		for(int i=0;i<26;i++)
 		{
 			
 			count=0;
@@ -36,14 +36,14 @@ exit(1);
 				}
 			
 			}
-			if(count!=1)
+			if(count==0)
 			{
 				printf("String is not a pangram");
 				break;
 			}
 			aa++;
 		}
-		if(count1>=25)
+		if(count1>=26)
 		{
 			printf("String is a Pangram");
 		
