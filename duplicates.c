@@ -9,14 +9,14 @@ scanf("%d",&ch[i]);
 }
 for(int i=0;i<10;i++)
 {
-for(int j=i+1;j<10;j++)
+for(int j=0;j<10;j++)
 {
 if(ch[i]==ch[j])
 {
 count++;
 }
 }
-if(count==0)
+if(count==1)
 {
 printf("%d",ch[i]);
 }
