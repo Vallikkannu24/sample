@@ -36,6 +36,15 @@ exit(1);
 				}
 			
 			}
+if(count1>=1)
+{
+count1=0;
+}
+else
+{
+count1=1;
+}
+
 			if(count==0)
 			{
 				printf("String is not a pangram");
@@ -43,7 +52,7 @@ exit(1);
 			}
 			aa++;
 		}
-		if(count1>=26)
+		if(count1==0)
 		{
 			printf("String is a Pangram");
 		
