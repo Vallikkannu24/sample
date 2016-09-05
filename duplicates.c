@@ -20,5 +20,6 @@ if(count==1)
 {
 printf("%d",ch[i]);
 }
+count=0;
 }
 }
